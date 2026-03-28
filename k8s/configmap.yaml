@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: task-api-config
+data:
+  DATABASE_URL: "sqlite:///tasks.db"
+  FLASK_ENV: "production"
